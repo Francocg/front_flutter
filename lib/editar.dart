@@ -17,6 +17,8 @@ class _EditarPageState extends State<EditarPage> {
   String descripcion = '';
   List<PostModel> postmodel = [];
 
+  //Modificar
+
   Future<http.Response> updatePost(PostModel posts, int id) async {
     final url = Uri.parse('https://app-front-flutter.herokuapp.com/update/${id}');
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:front_flutter/editar.dart';
 import 'package:front_flutter/home.dart';
-import 'package:front_flutter/login.dart';
+
 
 
 void main() {
@@ -20,10 +20,10 @@ class MyApp extends StatelessWidget {
       initialRoute: '/home',
       routes: {
         '/home':(_) => HomePage(),
-        '/login':(_) => LoginPage(),
+       
         '/editar':(_) => EditarPage(),
       },
-      home: LoginPage(),
+     
     );
   }
 }
